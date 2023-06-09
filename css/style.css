@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F2F2F3ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6em;
+}
+#container{
+    background: url(../images/bg-header-mobile.png) no-repeat center center/cover;
+
+}
+.header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+    
+}
+.header img{
+    width: 70px;
+    height: 70px;
+}
+#history{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.history-copy h2{
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.history-copy p{
+    font-size: 15px;
+    color: #c0baba;
+    margin-bottom: 20px;
+}
+.button .btn-1{
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    background-color: #29BAA8ff;
+    font-size: 11px;
+}
+.button .btn-2{
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    background-color: #5F73FEff;
+    font-size: 11px;
+    margin-left: 7px;
+}
+#track{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.track-content h2{
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.track-content p{
+    font-size: 15px;
+    color: #c0baba;
+    margin-bottom: 20px;
+}
+#info{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 40px;  
+}
+.info-content{
+    margin-left: 80px;
+    margin-top: -190px;
+}
+.info-content h3{
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+}
+.info-content p{
+    text-align: left;
+    font-size: 13px;
+    color: #c0baba;
+}
+.quick-search{
+    margin-bottom: 40px;
+}
+.icloud-sync{
+    margin-bottom: 40px;
+}
+#access{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.access-content h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.access-content p{
+    font-size: 15px;
+    color: #c0baba;
+    margin-bottom: 20px;
+}
+.access-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+}
+#workflow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.workflow-content h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.workflow-content p{
+    font-size: 15px;
+    color: #c0baba;
+    margin-bottom: 20px;
+}
+.demo-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 20px 230px;
+} 
+.demo-content h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.demo-content p{
+    color: #c0baba;
+    font-size: 15px;
+}
+.blacklist{
+    margin-top: 15px;
+}
+
+.demo-content img{
+    margin-bottom: 30px;
+}
+#sponsors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 200px 150px;
+}
+#clipboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 100px;
+    
+}
+.clipboard-copy h2{
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.clipboard-copy p{
+    font-size: 15px;
+    color: #c0baba;
+    margin-bottom: 20px;
+}
+#footer{
+    background: rgba(221, 221, 221, 0.2);
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-left: 130px;
+    margin-right: 200px;
+    padding: 30px;
+}
+.footer-image img{
+    width: 50px;
+    height: 50px;
+}
+.footer-install p{
+    padding-right: 350px;
+    margin-top: -25px;
+}
+.footer-socials img{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+
